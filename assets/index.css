@@ -1,0 +1,1157 @@
+@charset "UTF-8";
+html,
+body {
+  background-color: #ecf0f1;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+}
+html .mobile-size-container,
+body .mobile-size-container {
+  position: relative;
+  width: 414px;
+  height: 100vh;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  overflow-y: auto;
+  padding: 10px 16px;
+}
+html .mobile-size-container::-webkit-scrollbar,
+body .mobile-size-container::-webkit-scrollbar {
+  width: 5px;
+}
+html .mobile-size-container::-webkit-scrollbar-thumb,
+body .mobile-size-container::-webkit-scrollbar-thumb {
+  background-color: #bdc3c7;
+  border-radius: 6px;
+  height: 5px;
+  border: none;
+}
+html .mobile-size-container .content-form,
+body .mobile-size-container .content-form {
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 110px;
+}
+html .mobile-size-container .content-form .header-page,
+body .mobile-size-container .content-form .header-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+html .mobile-size-container .content-form .header-page .header-page-left,
+body .mobile-size-container .content-form .header-page .header-page-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 164px;
+  margin-top: 3;
+}
+html .mobile-size-container .content-form .header-page .header-page-left p,
+body .mobile-size-container .content-form .header-page .header-page-left p {
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 0;
+}
+html .mobile-size-container .content-form .header-page .header-page-left p small,
+body .mobile-size-container .content-form .header-page .header-page-left p small {
+  color: #717173;
+  font-weight: normal;
+  font-size: 11px;
+}
+html .mobile-size-container .content-form .header-page .header-page-right,
+body .mobile-size-container .content-form .header-page .header-page-right {
+  width: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+html .mobile-size-container .content-form .header-page .header-page-right p,
+body .mobile-size-container .content-form .header-page .header-page-right p {
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 0;
+}
+html .mobile-size-container .content-form .body-page,
+body .mobile-size-container .content-form .body-page {
+  margin-top: 10x;
+  position: relative;
+}
+html .mobile-size-container .content-form .body-page .title-content,
+body .mobile-size-container .content-form .body-page .title-content {
+  font-family: Segoe UI, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #181818;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content,
+body .mobile-size-container .content-form .body-page .featured-switch-content {
+  overflow-y: hidden;
+  overflow-x: auto;
+  width: auto;
+  height: 170px;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content::-webkit-scrollbar,
+body .mobile-size-container .content-form .body-page .featured-switch-content::-webkit-scrollbar {
+  display: none;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section {
+  display: inline-block;
+  width: 350px;
+  height: 150px;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1),
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/sayna-testfront-js.appspot.com/o/assets%2Fimage%2012.png?alt=media&token=f8e2b46f-421a-4a8b-a8b4-b14ac9791a06");
+  background-color: #121221;
+  position: relative;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) img,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) img {
+  position: absolute;
+  width: 46px;
+  height: 44px;
+  left: 20px;
+  top: -18px;
+  background: #747474;
+  padding: 12px 15px;
+  border-radius: 40px;
+  margin-top: 5px;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) .future-content,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) .future-content {
+  position: absolute;
+  padding: 0px 20px;
+  top: 20px;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) .future-content .future-text,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) .future-content .future-text {
+  font-family: Segoe UI, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  opacity: 0.9;
+  margin-bottom: -10px;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) .future-content .future-text span,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) .future-content .future-text span {
+  color: yellow;
+  opacity: 0.9;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) .future-content .little-text,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) .future-content .little-text {
+  /* 12 px */
+  font-family: Segoe UI, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) .future-content .order-btn,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) .future-content .order-btn {
+  width: 115px;
+  height: 32px;
+  background: #D73624;
+  border-radius: 4px;
+  border: none;
+  outline: 0;
+  font-family: "Segoe UI", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #FFF;
+  transition: all 0.5s ease;
+  position: relative;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) .future-content .order-btn:hover,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) .future-content .order-btn:hover {
+  background: #E64533;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) .future-content .order-btn:hover .barret,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) .future-content .order-btn:hover .barret {
+  background: #D73624;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) .future-content .order-btn .barret,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(1) .future-content .order-btn .barret {
+  top: 0;
+  right: -20px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: #E64533;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease;
+  align-items: center;
+  border-radius: 4px;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2),
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/sayna-testfront-js.appspot.com/o/assets%2Fimage%2014.png?alt=media&token=ce33cdde-16b8-4d27-8948-f7b533d45998");
+  position: relative;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) img,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) img {
+  position: absolute;
+  width: 46px;
+  height: 44px;
+  left: 20px;
+  top: -18px;
+  background: #747474;
+  padding: 12px 15px;
+  border-radius: 40px;
+  margin-top: 5px;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) .future-content,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) .future-content {
+  position: absolute;
+  padding: 0px 20px;
+  top: 20px;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) .future-content .future-text,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) .future-content .future-text {
+  font-family: Segoe UI, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  opacity: 0.9;
+  margin-bottom: -10px;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) .future-content .future-text span,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) .future-content .future-text span {
+  color: yellow;
+  opacity: 0.9;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) .future-content .little-text,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) .future-content .little-text {
+  /* 12 px */
+  font-family: Segoe UI, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) .future-content .order-btn,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) .future-content .order-btn {
+  width: 115px;
+  height: 32px;
+  background: #D73624;
+  border-radius: 4px;
+  border: none;
+  outline: 0;
+  font-family: "Segoe UI", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #FFF;
+  transition: all 0.5s ease;
+  position: relative;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) .future-content .order-btn:hover,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) .future-content .order-btn:hover {
+  background: #E64533;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) .future-content .order-btn:hover .barret,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) .future-content .order-btn:hover .barret {
+  background: #D73624;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) .future-content .order-btn .barret,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(2) .future-content .order-btn .barret {
+  top: 0;
+  right: -20px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: #E64533;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease;
+  align-items: center;
+  border-radius: 4px;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3),
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/sayna-testfront-js.appspot.com/o/assets%2Fimage%2012.png?alt=media&token=f8e2b46f-421a-4a8b-a8b4-b14ac9791a06");
+  position: relative;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) img,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) img {
+  position: absolute;
+  width: 46px;
+  height: 44px;
+  left: 20px;
+  top: -18px;
+  background: #747474;
+  padding: 12px 15px;
+  border-radius: 40px;
+  margin-top: 5px;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) .future-content,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) .future-content {
+  position: absolute;
+  padding: 0px 20px;
+  top: 20px;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) .future-content .future-text,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) .future-content .future-text {
+  font-family: Segoe UI, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  opacity: 0.9;
+  margin-bottom: -10px;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) .future-content .future-text span,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) .future-content .future-text span {
+  color: yellow;
+  opacity: 0.9;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) .future-content .little-text,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) .future-content .little-text {
+  /* 12 px */
+  font-family: Segoe UI, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) .future-content .order-btn,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) .future-content .order-btn {
+  width: 115px;
+  height: 32px;
+  background: #D73624;
+  border-radius: 4px;
+  border: none;
+  outline: 0;
+  font-family: "Segoe UI", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #FFF;
+  transition: all 0.5s ease;
+  position: relative;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) .future-content .order-btn:hover,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) .future-content .order-btn:hover {
+  background: #E64533;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) .future-content .order-btn:hover .barret,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) .future-content .order-btn:hover .barret {
+  background: #D73624;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) .future-content .order-btn .barret,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(3) .future-content .order-btn .barret {
+  top: 0;
+  right: -20px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: #E64533;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease;
+  align-items: center;
+  border-radius: 4px;
+}
+
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4),
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/sayna-testfront-js.appspot.com/o/assets%2Fimage%2014.png?alt=media&token=ce33cdde-16b8-4d27-8948-f7b533d45998");
+  position: relative;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) img,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) img {
+  position: absolute;
+  width: 46px;
+  height: 44px;
+  left: 20px;
+  top: -18px;
+  background: #747474;
+  padding: 12px 15px;
+  border-radius: 40px;
+  margin-top: 5px;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) .future-content,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) .future-content {
+  position: absolute;
+  padding: 0px 20px;
+  top: 20px;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) .future-content .future-text,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) .future-content .future-text {
+  font-family: Segoe UI, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  opacity: 0.9;
+  margin-bottom: -10px;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) .future-content .future-text span,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) .future-content .future-text span {
+  color: yellow;
+  opacity: 0.9;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) .future-content .little-text,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) .future-content .little-text {
+  /* 12 px */
+  font-family: Segoe UI, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) .future-content .order-btn,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) .future-content .order-btn {
+  width: 115px;
+  height: 32px;
+  background: #D73624;
+  border-radius: 4px;
+  border: none;
+  outline: 0;
+  font-family: "Segoe UI", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #FFF;
+  transition: all 0.5s ease;
+  position: relative;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) .future-content .order-btn:hover,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) .future-content .order-btn:hover {
+  background: #E64533;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) .future-content .order-btn:hover .barret,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) .future-content .order-btn:hover .barret {
+  background: #D73624;
+}
+html .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) .future-content .order-btn .barret,
+body .mobile-size-container .content-form .body-page .featured-switch-content .section:nth-child(4) .future-content .order-btn .barret {
+  top: 0;
+  right: -20px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: #E64533;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease;
+  align-items: center;
+  border-radius: 4px;
+}
+html .mobile-size-container .content-form .body-page .control,
+body .mobile-size-container .content-form .body-page .control {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+html .mobile-size-container .content-form .body-page .control div,
+body .mobile-size-container .content-form .body-page .control div {
+  width: 10px;
+  height: 10px;
+  background-color: #D6D6D6;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+html .mobile-size-container .content-form .body-page .control div:hover,
+body .mobile-size-container .content-form .body-page .control div:hover {
+  cursor: pointer;
+}
+html .mobile-size-container .content-form .body-page .content-promotion, html .mobile-size-container .content-form .body-page .content-popular,
+body .mobile-size-container .content-form .body-page .content-promotion,
+body .mobile-size-container .content-form .body-page .content-popular {
+  margin-top: 20px;
+}
+html .mobile-size-container .content-form .body-page .content-promotion .promo, html .mobile-size-container .content-form .body-page .content-popular .promo,
+body .mobile-size-container .content-form .body-page .content-promotion .promo,
+body .mobile-size-container .content-form .body-page .content-popular .promo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+html .mobile-size-container .content-form .body-page .content-promotion .promo .promo-content, html .mobile-size-container .content-form .body-page .content-popular .promo .promo-content,
+body .mobile-size-container .content-form .body-page .content-promotion .promo .promo-content,
+body .mobile-size-container .content-form .body-page .content-popular .promo .promo-content {
+  width: 64px;
+  height: 93px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+html .mobile-size-container .content-form .body-page .content-promotion .promo .promo-content .promo-image, html .mobile-size-container .content-form .body-page .content-popular .promo .promo-content .promo-image,
+body .mobile-size-container .content-form .body-page .content-promotion .promo .promo-content .promo-image,
+body .mobile-size-container .content-form .body-page .content-popular .promo .promo-content .promo-image {
+  width: 64px;
+  height: 64px;
+  padding: 16px;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 4px 8px rgba(215, 54, 36, 0.04), 0px 0px 2px rgba(215, 54, 36, 0.06), 0px 0px 1px rgba(215, 54, 36, 0.04);
+  box-shadow: 0px 4px 8px rgba(215, 54, 36, 0.04), 0px 0px 2px rgba(215, 54, 36, 0.06), 0px 0px 1px rgba(215, 54, 36, 0.04);
+  border-radius: 12px;
+}
+html .mobile-size-container .content-form .body-page .content-promotion .promo .promo-content .promo-image img, html .mobile-size-container .content-form .body-page .content-popular .promo .promo-content .promo-image img,
+body .mobile-size-container .content-form .body-page .content-promotion .promo .promo-content .promo-image img,
+body .mobile-size-container .content-form .body-page .content-popular .promo .promo-content .promo-image img {
+  width: 32px;
+  height: 32px;
+}
+html .mobile-size-container .content-form .body-page .content-promotion .promo .promo-content p, html .mobile-size-container .content-form .body-page .content-popular .promo .promo-content p,
+body .mobile-size-container .content-form .body-page .content-promotion .promo .promo-content p,
+body .mobile-size-container .content-form .body-page .content-popular .promo .promo-content p {
+  margin-top: 8px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 21px;
+  /* #181818 */
+  color: #181818;
+}
+html .mobile-size-container .content-form .body-page .content-popular,
+body .mobile-size-container .content-form .body-page .content-popular {
+  margin-top: 24px;
+}
+html .mobile-size-container .content-form .body-page .content-popular .promo-image,
+body .mobile-size-container .content-form .body-page .content-popular .promo-image {
+  margin-top: 16px;
+  border: 1px solid #E2E2E2;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+html .mobile-size-container .content-form .body-page .switch,
+body .mobile-size-container .content-form .body-page .switch {
+  margin-top: 24px;
+}
+html .mobile-size-container .content-form .body-page .switch .switch-content,
+body .mobile-size-container .content-form .body-page .switch .switch-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 100%;
+  width: 700px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+html .mobile-size-container .content-form .body-page .switch .switch-content .pick, html .mobile-size-container .content-form .body-page .switch .switch-content .under, html .mobile-size-container .content-form .body-page .switch .switch-content .price, html .mobile-size-container .content-form .body-page .switch .switch-content .ratings,
+body .mobile-size-container .content-form .body-page .switch .switch-content .pick,
+body .mobile-size-container .content-form .body-page .switch .switch-content .under,
+body .mobile-size-container .content-form .body-page .switch .switch-content .price,
+body .mobile-size-container .content-form .body-page .switch .switch-content .ratings {
+  width: 67px;
+  height: 41px;
+  background: #E8E8E8;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+html .mobile-size-container .content-form .body-page .switch .switch-content .pick p, html .mobile-size-container .content-form .body-page .switch .switch-content .under p, html .mobile-size-container .content-form .body-page .switch .switch-content .price p, html .mobile-size-container .content-form .body-page .switch .switch-content .ratings p,
+body .mobile-size-container .content-form .body-page .switch .switch-content .pick p,
+body .mobile-size-container .content-form .body-page .switch .switch-content .under p,
+body .mobile-size-container .content-form .body-page .switch .switch-content .price p,
+body .mobile-size-container .content-form .body-page .switch .switch-content .ratings p {
+  /* 16px */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 14px;
+  /* #181818 */
+  color: #181818;
+}
+html .mobile-size-container .content-form .body-page .switch .switch-content .ratings,
+body .mobile-size-container .content-form .body-page .switch .switch-content .ratings {
+  margin-left: 14px;
+  width: 118px;
+  height: 41px;
+}
+html .mobile-size-container .content-form .body-page .switch .switch-content .under, html .mobile-size-container .content-form .body-page .switch .switch-content .price,
+body .mobile-size-container .content-form .body-page .switch .switch-content .under,
+body .mobile-size-container .content-form .body-page .switch .switch-content .price {
+  width: 127px;
+  height: 41px;
+  margin-left: 15px;
+}
+html .mobile-size-container .content-form .body-page .switch .switch-content .price,
+body .mobile-size-container .content-form .body-page .switch .switch-content .price {
+  width: 81px;
+  height: 41px;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick,
+body .mobile-size-container .content-form .body-page .content-top-pick {
+  margin-top: 20px;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .top-pick-form,
+body .mobile-size-container .content-form .body-page .content-top-pick .top-pick-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .top-pick-form a,
+body .mobile-size-container .content-form .body-page .content-top-pick .top-pick-form a {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  font-weight: 500px;
+  color: #D73624;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 600px;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-one, html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-two,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-one,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-two {
+  width: 217px;
+  height: 135px;
+  border-radius: 10px;
+  background: url("https://firebasestorage.googleapis.com/v0/b/sayna-testfront-js.appspot.com/o/assets%2Fimage%201.png?alt=media&token=87d86b55-37a4-4a87-a8a2-ff7a6e845ffb");
+  margin-right: 16px;
+  position: relative;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-one img, html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-two img,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-one img,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-two img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-one .pick-one-content, html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-two .pick-one-content,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-one .pick-one-content,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-two .pick-one-content {
+  position: absolute;
+  top: 10px;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-one .pick-one-content .text, html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-two .pick-one-content .text,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-one .pick-one-content .text,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-two .pick-one-content .text {
+  width: 75px;
+  height: 31px;
+  /* #D73624 */
+  background: #D73624;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 4px 4px 0px;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-one .pick-one-content .text p, html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-two .pick-one-content .text p,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-one .pick-one-content .text p,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-two .pick-one-content .text p {
+  text-align: center;
+  color: #FFF;
+  font-family: "Segoe UI", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 20%;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-one .times, html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-two .times,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-one .times,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-two .times {
+  position: absolute;
+  width: 69px;
+  height: 31px;
+  bottom: 20px;
+  background: #FFFFFF;
+  border-radius: 35px;
+  display: flex;
+  left: 8px;
+  justify-content: center;
+  align-items: center;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-one .times p, html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-two .times p,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-one .times p,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-two .times p {
+  font-family: Segoe UI, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* #181818 */
+  color: #181818;
+  margin-top: 20%;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-two,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .pick-two {
+  background: url("https://firebasestorage.googleapis.com/v0/b/sayna-testfront-js.appspot.com/o/assets%2Fimage%203.png?alt=media&token=ea5f770d-ed2a-429f-af07-76c9f0ac4430");
+  background-repeat: no-repeat;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-one,
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-two,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-one,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-two {
+  margin-top: 10px;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-one .text-pick-star,
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-two .text-pick-star,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-one .text-pick-star,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-two .text-pick-star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-one .text-pick-star p,
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-two .text-pick-star p,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-one .text-pick-star p,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-two .text-pick-star p {
+  font-family: Segoe UI, sans-serif;
+  margin-top: 0;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-one .text-pick-star small,
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-two .text-pick-star small,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-one .text-pick-star small,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-two .text-pick-star small {
+  margin-right: 20px;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-one .text-pick-star small i,
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-two .text-pick-star small i,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-one .text-pick-star small i,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-two .text-pick-star small i {
+  color: #D73624;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  -webkit-box-ordinal-group: 1;
+  -ms-flex-order: 0;
+  order: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  margin: 0px 2px;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-one p,
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-two p,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-one p,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-two p {
+  margin-top: 5px;
+  line-height: 0px;
+  font-size: 15px;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-one div img,
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-two div img,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-one div img,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-two div img {
+  display: inline-block;
+}
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-one div p,
+html .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-two div p,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-one div p,
+body .mobile-size-container .content-form .body-page .content-top-pick .body-pick-form .text-pick-two div p {
+  display: inline-block;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near,
+body .mobile-size-container .content-form .body-page .content-fastest-near {
+  margin-top: 10px;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .top-fastestnear-form,
+body .mobile-size-container .content-form .body-page .content-fastest-near .top-fastestnear-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .top-fastestnear-form a,
+body .mobile-size-container .content-form .body-page .content-fastest-near .top-fastestnear-form a {
+  font-family: Segoe UI, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  font-weight: 500px;
+  color: #D73624;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 600px;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-one, html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-one,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two {
+  width: 217px;
+  height: 135px;
+  border-radius: 10px;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/sayna-testfront-js.appspot.com/o/assets%2Fimage%202.png?alt=media&token=1078e5dc-7861-4bae-bf27-b8aa6aeddd26");
+  margin-right: 16px;
+  position: relative;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-one img, html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two img,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-one img,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-one .pick-one-content, html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .pick-one-content,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-one .pick-one-content,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .pick-one-content {
+  position: absolute;
+  top: 10px;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-one .pick-one-content .text, html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .pick-one-content .text,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-one .pick-one-content .text,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .pick-one-content .text {
+  width: 75px;
+  height: 31px;
+  /* #D73624 */
+  background: #D73624;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 4px 4px 0px;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-one .pick-one-content .text p, html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .pick-one-content .text p,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-one .pick-one-content .text p,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .pick-one-content .text p {
+  text-align: center;
+  color: #FFF;
+  font-family: "Segoe UI", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-one .times, html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .times,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-one .times,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .times {
+  position: absolute;
+  width: 69px;
+  height: 31px;
+  bottom: 20px;
+  background: #FFFFFF;
+  border-radius: 35px;
+  display: flex;
+  left: 8px;
+  justify-content: center;
+  align-items: center;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-one .times p, html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .times p,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-one .times p,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .times p {
+  font-family: Segoe UI, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* #181818 */
+  color: #181818;
+  margin-top: 20%;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/sayna-testfront-js.appspot.com/o/assets%2Fimage%204.png?alt=media&token=e4231d67-0c00-4589-ab0c-c02a66e7d7fa");
+  background-repeat: no-repeat;
+  position: relative;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two img,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .pick-one-content,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .pick-one-content {
+  position: absolute;
+  top: 10px;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .pick-one-content .text,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .pick-one-content .text {
+  width: 75px;
+  height: 31px;
+  /* #D73624 */
+  background: #D73624;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 4px 4px 0px;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .pick-one-content .text p,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .pick-one-content .text p {
+  text-align: center;
+  color: #FFF;
+  font-family: "Segoe UI", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 20%;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .times,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .times {
+  position: absolute;
+  width: 69px;
+  height: 31px;
+  bottom: 20px;
+  background: #FFFFFF;
+  border-radius: 35px;
+  display: flex;
+  left: 8px;
+  justify-content: center;
+  align-items: center;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .times p,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .pick-two .times p {
+  font-family: Segoe UI, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* #181818 */
+  color: #181818;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-one,
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-two,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-one,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-two {
+  margin-top: 10px;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-one .text-pick-star,
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-two .text-pick-star,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-one .text-pick-star,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-two .text-pick-star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-one .text-pick-star p,
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-two .text-pick-star p,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-one .text-pick-star p,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-two .text-pick-star p {
+  font-family: Segoe UI;
+  margin-top: 0;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-one .text-pick-star small,
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-two .text-pick-star small,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-one .text-pick-star small,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-two .text-pick-star small {
+  margin-right: 20px;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-one .text-pick-star small i,
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-two .text-pick-star small i,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-one .text-pick-star small i,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-two .text-pick-star small i {
+  color: #D73624;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  -webkit-box-ordinal-group: 1;
+  -ms-flex-order: 0;
+  order: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  margin: 0px 2px;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-one p,
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-two p,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-one p,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-two p {
+  margin-top: 5px;
+  line-height: 0px;
+  font-size: 15px;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-one div img,
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-two div img,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-one div img,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-two div img {
+  display: inline-block;
+}
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-one div p,
+html .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-two div p,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-one div p,
+body .mobile-size-container .content-form .body-page .content-fastest-near .body-fastestnear-form .text-pick-two div p {
+  display: inline-block;
+}
+html .mobile-size-container .footer-page,
+body .mobile-size-container .footer-page {
+  position: fixed;
+  width: inherit;
+  box-sizing: border-box;
+  height: 83px;
+  bottom: 0;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+html .mobile-size-container .footer-page .foot-element,
+body .mobile-size-container .footer-page .foot-element {
+  width: 27px;
+  height: 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+html .mobile-size-container .footer-page .foot-element.active p,
+body .mobile-size-container .footer-page .foot-element.active p {
+  color: #D73624;
+}
+html .mobile-size-container .footer-page .foot-element .foot-title,
+body .mobile-size-container .footer-page .foot-element .foot-title {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 5px;
+  color: #747474;
+  transition: color 0.4s ease;
+}
+html .mobile-size-container .footer-page .foot-element .foot-title:hover,
+body .mobile-size-container .footer-page .foot-element .foot-title:hover {
+  cursor: pointer;
+  color: #D73624;
+}
+
+/* A toutes width inférieur à 414px :*/
+@media screen and (max-width: 414px) {
+  body {
+    /* Mettre le width du mobile-size-container à 100% pour toujours remplir l'ecran que ce soit le width*/
+  }
+  body .mobile-size-container {
+    width: 100%;
+    padding: 10px 6px;
+    box-sizing: border-box;
+  }
+  body .mobile-size-container .header-page {
+    width: auto;
+  }
+  body .mobile-size-container .header-page .header-page-left {
+    width: auto;
+  }
+  body .mobile-size-container .header-page .header-page-right {
+    width: auto;
+  }
+}
